@@ -1,4 +1,4 @@
-hlibrary IEEE;
+library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
 entity LAB4 is
@@ -13,3 +13,4 @@ SIGNAL set: STD_LOGIC_VECTOR(3 DOWNTO 0);
 begin
     m <= (NOT (set)AND x) OR ((set)) AND y);	 
 end Behavioral;
+
