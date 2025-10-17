@@ -1,0 +1,12 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+ENTITY Lab4 IS
+	PORT(SW 	:IN 	STD_LOGIC_VECTOR(9 DOWNTO 0);
+		  LEDR :OUT STD_LOGIC_VECTOR(9 DOWNTO 0));
+END Lab4;
+
+ARCHITECTURE Behavior OF Lab4 IS
+BEGIN
+	LEDR <= SW;
+END Behavior;
